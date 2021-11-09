@@ -7,4 +7,4 @@ As Kanye West said:
 > the present is our past. 
 
 [GitLog](https://github.com/Vauhkonen/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
-[Komentorivi}(https://github.com/Vauhkonen/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
+[Komentorivi](https://github.com/Vauhkonen/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
