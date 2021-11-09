@@ -1,0 +1,115 @@
+commit 849bfe9e21bf9e31b47f85da7be094b3754e606a
+Author: Sami Vauhkonen <sami.vauhkonen@gmail.com>
+Date:   Tue Nov 9 13:38:41 2021 +0200
+
+    Tehtävien lopputulos
+
+ loki                         | 104 +++++++++++++++++++++++++++++++++++++++++++
+ tiedostoja/file2             |   0
+ tiedostoja/{file1 => file22} |   0
+ 3 files changed, 104 insertions(+)
+
+commit ffc1c8764e5708ec3a4cd97b671c6c0508108e44
+Author: Sami Vauhkonen <sami.vauhkonen@gmail.com>
+Date:   Tue Nov 9 13:11:07 2021 +0200
+
+    harjoittelua
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 2 ++
+ 3 files changed, 2 insertions(+)
+
+commit 590066b7f8497fad59cf5f2477f4cb4b3b3215c1
+Author: Sami Vauhkonen <sami.vauhkonen@gmail.com>
+Date:   Tue Nov 2 17:08:03 2021 +0200
+
+    muokkauksia git add -p:llä
+
+ eka.txt    | 5 ++++-
+ kolmas.txt | 3 +++
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+commit 3dfdbef93ad3a28ccf25f2189cc111dc13cf02e5
+Author: Sami Vauhkonen <sami.vauhkonen@gmail.com>
+Date:   Tue Nov 2 17:04:40 2021 +0200
+
+    ja poistettu tiedosto
+
+ tiedosto.txt | 16 ----------------
+ 1 file changed, 16 deletions(-)
+
+commit 3f5fc1614f3c34fee13471136ca074c0a8b1d6fd
+Author: Sami Vauhkonen <sami.vauhkonen@gmail.com>
+Date:   Tue Nov 2 17:03:59 2021 +0200
+
+    nimetty tiedosto -> eka
+
+ eka.txt | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+
+commit 0607923ede7187e8b0df07cf2f86079a9ed7017d
+Author: Sami Vauhkonen <sami.vauhkonen@gmail.com>
+Date:   Tue Nov 2 17:02:37 2021 +0200
+
+    poistettu toinen
+
+ toinen.txt | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit 1ecfe086c1fdef0fb3f154d953b8a415fea06ca1
+Author: Sami Vauhkonen <sami.vauhkonen@gmail.com>
+Date:   Tue Nov 2 16:58:47 2021 +0200
+
+    Modattu tiedostoa
+
+ tiedosto.txt | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 135bfda7ed59175fb54eec7fd07a2e590dc432c2
+Author: Sami Vauhkonen <sami.vauhkonen@gmail.com>
+Date:   Tue Nov 2 16:57:01 2021 +0200
+
+    tiedosto.txt muokkaus
+
+ kolmas.txt   |  1 +
+ tiedosto.txt | 15 +++++++++++++++
+ toinen.txt   |  2 ++
+ 3 files changed, 18 insertions(+)
+
+commit 8e8c103de9ca180824211dc2fb965568b4171863
+Author: Sami Vauhkonen <sami.vauhkonen@gmail.com>
+Date:   Tue Nov 2 16:51:11 2021 +0200
+
+    päivitys ja lisäys
+
+ stuff/neljas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 2658401a22263e7836449290ec858e643e940308
+Author: Sami Vauhkonen <sami.vauhkonen@gmail.com>
+Date:   Tue Nov 2 16:49:06 2021 +0200
+
+    kolmas lisätty
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 9a01cff5b6f74e2e99e99be22f10ca021a32cfa5
+Author: Sami Vauhkonen <sami.vauhkonen@gmail.com>
+Date:   Tue Nov 2 08:47:52 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit d33ba9af207ede64262ac7b5e318b7a079008d6a
+Author: Sami Vauhkonen <sami.vauhkonen@gmail.com>
+Date:   Tue Nov 2 08:45:58 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
