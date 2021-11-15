@@ -1,6 +1,6 @@
 # OHTE Harjoitustyö
 
-[Vaatimusmäärittely]()
+[Määrittelydokumentaatio](https://github.com/Vauhkonen/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
 
 ## Captain's Log
@@ -23,4 +23,4 @@ As Kanye West said:
 
 ### Viikko 2
 
-
+[testikattavuus-kuva](https://github.com/Vauhkonen/ot-harjoitustyo/blob/master/laskarit/viikko2/Testikattavuus.png)
