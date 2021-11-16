@@ -1,6 +1,6 @@
 # OHTE Harjoitustyö
 
-[Määrittelydokumentaatio](https://github.com/Vauhkonen/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+[Määrittelydokumentaatio](https://github.com/Vauhkonen/ot-harjoitustyo/blob/master/dokumentaatio/maarittelydokumentaatio.md)
 
 
 ## Captain's Log
