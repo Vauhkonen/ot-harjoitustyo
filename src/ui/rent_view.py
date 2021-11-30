@@ -1,6 +1,6 @@
 from tkinter import Entry, ttk, constants, Text, Button, Label, Frame
 from tkinter import filedialog
-from tkinter.filedialog import asksaveasfilename
+from services.service import service
 
 
 class RentView:
@@ -66,7 +66,7 @@ class RentView:
         btn_back.grid(row=10, column=0, pady=5)
         btn_reset = Button(self._frame, text="Tyhjennä")
         btn_reset.grid(row=10, column=1)
-        btn_save = Button(self._frame, text="Tallenna", command=self._tallenna)
+        btn_save = Button(self._frame, text="Tallenna", command=self._save)
         btn_save.grid(row=10, column=2)
         
 
@@ -77,21 +77,13 @@ class RentView:
     def pack(self):
         self._frame.pack(fill=constants.X)
 
-    def _tallenna(self):
+    def _save(self):
         a = self.product.get()
         b = self.borrower.get()
         c = self.borrowdate.get()
         d = self.returndate.get()
         e = self.description.get(1.0, constants.END)
+        #fiksaa rivinvaihto description kentästä ennen tallennusta
         record = [a,b,c,d,e]
-        print(record)
-        filepath = asksaveasfilename(
-            defaultextension="txt",
-            filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")]
-        )
-        if not filepath:
-            return
-        with open(filepath, "w") as output_file:
-            text = ';'.join(record)
-            print(text)
-            output_file.write(text)
+        #print(record)
+        service.create_borrow(record)
